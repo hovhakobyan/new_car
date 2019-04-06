@@ -12,7 +12,7 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-var port = 80;
+var port = 3000;
 app.set('port', port);
 
 /**
@@ -49,9 +49,6 @@ function normalizePort(val) {
   return false;
 }
 
-console.log('-------------------------------------');
-console.log('-------------------------------------');
-console.log('-------------------------------------');
 
 /**
  * Event listener for HTTP server "error" event.
