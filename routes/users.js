@@ -4,10 +4,10 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/get', function(req, res, next) {
 
-    console.log('-------------------------------------');
+    console.log('+++++++++++++++++++++++++++++++++++++');
     console.log(req);
     console.log(res);
-    console.log('-------------------------------------');
+    console.log('======================================');
 
   res.send('respond with a resource');
 });
